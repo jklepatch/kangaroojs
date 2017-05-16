@@ -1,0 +1,71 @@
+/*
+ * Alerts 
+ */
+ .alert-error {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+ }
+
+/*
+ * Focus form
+ * For login, signout pages, etc...
+ */
+.focus-form {
+  background-color: #eee;
+  margin-top: calc(50vh - 140px);
+  padding: 15px 15px 0 15px;
+  overflow: hidden;
+}
+
+.focus-form h1 {
+  margin-top: 0;
+}
+
+.focus-form + p {
+  padding: 15px;
+}
+
+.focus-form + p a {
+  font-weight: bold;
+}
+
+/*
+ * Admin
+ */
+ .table-admin td {
+   line-height: 40px !important;
+ }
+
+.table-admin td span {
+  line-height: 40px !important;
+}
+
+.table-admin .destroy {
+  border: none;
+  background-color: transparent;
+  color: #d9534f;
+}
+
+/*
+ * Footer
+ */
+footer {
+  background-color: #262626;
+  padding: 15px;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+footer p a {
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+}

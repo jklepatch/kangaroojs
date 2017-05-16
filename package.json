@@ -1,0 +1,38 @@
+{
+  "name": "kangaroojs",
+  "version": "0.0.1",
+  "description": "Simple skeleton for MVC express apps. Uses Sequelize and Handlebars",
+  "scripts": {
+    "start": "nodemon ./apps/web/index.js",
+    "start-prod": "sequelize db:migrate && node ./apps/web/index.js",
+    "test": "npm run test-modules && npm run test-models",
+    "test-modules": "mocha ./apps/web/modules/**/test-*.*",
+    "test-models": "mocha ./apps/web/models/test-*.*"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.16.0",
+    "crypto": "0.0.3",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.2",
+    "express-hbs": "^1.0.4",
+    "express-session": "^1.14.2",
+    "helmet": "^3.5.0",
+    "moment": "^2.18.1",
+    "mysql": "^2.13.0",
+    "sequelize": "^3.30.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "faker": "^3.1.0"
+  },
+  "keywords": [
+    "express skeleton",
+    "MVC framework",
+    "sequelize",
+    "handlebars"
+  ],
+  "author": "Julien Klepatch",
+  "license": "MIT"
+}

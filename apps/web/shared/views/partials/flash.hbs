@@ -1,0 +1,9 @@
+  {{#if flash}}
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="alert alert-{{flash.type}}" role="alert">
+          <p>{{{flash.message}}}</p>
+        </div>
+      </div>
+    </div>
+  {{/if}}

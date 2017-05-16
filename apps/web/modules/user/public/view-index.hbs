@@ -1,0 +1,9 @@
+<h1>All Users</h1>
+  <ul class="list-group">
+  {{#each users}}
+    <li class="list-group-item">
+      <img width="100" height="100" src="{{this.avatar}}"> 
+      <p>{{this.email}}</p>
+    </li>
+  {{/each}}
+</ul>

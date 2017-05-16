@@ -1,0 +1,8 @@
+{
+  "apps": [{
+    "name": "[APP NAME]",
+    "script": "./apps/web/index.js",
+    "watch" : "true",
+    "interpreter": "node@6.10.2"
+    }]
+}
