@@ -10,9 +10,9 @@ const testConfig = {
   db: {
     logging: false,
     host: 'localhost',
-	  username: 'root',
-	  password: '',
-	  name: 'os_kangaroojs_test'
+    username: 'root',
+    password: '',
+    name: 'os_kangaroojs_test'
   }
 };
 
