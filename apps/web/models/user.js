@@ -7,16 +7,16 @@ var classMethods = {};
 
 const initModel = function(sequelize, DataTypes) {
   User = sequelize.define("user", {
-		email: {
-			type: DataTypes.STRING, 
-			unique:  {
+    email: {
+      type: DataTypes.STRING, 
+      unique:  {
         args: true,
-        msg: 'This email is already used. Please choose another one.'
-      },
-			isEmail: 		true,
-			allowNull: 	false
+				msg: 'This email is already used. Please choose another one.'
+			},
+			isEmail: true,
+			allowNull: false
 		},
-    password: {
+		password: {
 			type: DataTypes.STRING,
 			allowNull: false,
 			validate: {
