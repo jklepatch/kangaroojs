@@ -68,7 +68,7 @@ DB_PASSWORD=[YOUR DB_PASSWORD]
 * [Mocha v3.4.1](https://mochajs.org) - `npm install -g mocha`
 * [Sequelize-cli v2.7.0](http://docs.sequelizejs.com) - `npm install -g sequelize-cli`
 
-## High level Files Organisation
+## Folders Organisation
 ### Overview
 ```
 | -- /apps
